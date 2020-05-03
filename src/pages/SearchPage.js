@@ -34,7 +34,7 @@ class SearchPage extends React.Component {
 
   componentDidMount() {
     this.setState({ propertyList: propertyData, loading: false})
-    // fetch('http://demo-web.in/api/property-search.php')
+    // fetch('/api/property-search.php')
     //     .then(response => response.json())
     //     .then(data => this.setState({ propertyList: data, loading: false}));
   }

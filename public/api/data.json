@@ -1,0 +1,77 @@
+[
+    {
+        "Id":1,
+        "StatusId":1,
+        "PerSqureRate":"11,500",
+        "TotalArea":"39,434",
+        "Address1":"IBC Knowledge Park III",
+        "Address2":"Bannarghatta Road, Jailan Wala Bagh, Near Hotel Rassion Blue, Bangalore-140012",
+        "Funded":100,
+        "Investors":95,
+        "DaysToGo":13,
+        "RentalYield":8.4,
+        "ReturnTarget":17.5,
+        "MinInvestment":"25,00,000",
+        "Photos":[
+            "https://images.adsttc.com/media/images/5ea9/b3a4/b357/653d/aa00/004f/slideshow/ASPECT_DarlingSquare_000037_contrast.jpg",
+            "https://images.adsttc.com/media/images/5ea7/9758/b357/6505/9700/0238/slideshow/ASPECT_DarlingSquare_002759.jpg?1588041543"
+        ]
+    },
+    {
+        "Id":2,
+        "StatusId":2,
+        "PerSqureRate":"11,067",
+        "TotalArea":"22,564",
+        "Address1":"Miraya Rose",
+        "Address2":"Whitfield, Bangalore",
+        "Funded":80,
+        "Investors":71,
+        "DaysToGo":21,
+        "RentalYield":8.1,
+        "ReturnTarget":16.9,
+        "MinInvestment":"20,50,000",
+        "Photos":[
+            "https://image.freepik.com/free-photo/panoramic-skyline-buildings-with-empty-concrete-square-floor-shenzhen-china_1112-4782.jpg",
+            "https://image.freepik.com/free-photo/panoramic-skyline-buildings-with-empty-concrete-square-floor-shenzhen-china_1112-4871.jpg",
+            "https://image.freepik.com/free-photo/panoramic-skyline-buildings-with-empty-concrete-square-floor-shenzhen-china_1112-4839.jpg",
+            "https://image.freepik.com/free-photo/panoramic-skyline-buildings-with-empty-concrete-square-floor-shenzhen-china_1112-4872.jpg"
+        ]
+    },
+    {
+        "Id":3,
+        "StatusId":1,
+        "PerSqureRate":"12,200",
+        "TotalArea":"28,500",
+        "Address1":"Raja Ram Villas",
+        "Address2":"South city-1, Sector 40, Gurgaon - 122001",
+        "Funded":98,
+        "Investors":100,
+        "DaysToGo":18,
+        "RentalYield":8.9,
+        "ReturnTarget":20.9,
+        "MinInvestment":"30,50,000",
+        "Photos":[
+            "https://previews.agefotostock.com/previewimage/medibigoff/28bb220be7159b1e805ac5f8d72ea8b2/mba-06548370.webp",
+            "https://previews.agefotostock.com/previewimage/medibigoff/79f0d8747cd016d550ca368f3e261d97/zw9-3441915.webp",
+            "https://c7.alamy.com/comp/PY679R/cozy-square-with-beautiful-buildings-and-cathedral-on-the-background-in-rouen-city-france-PY679R.jpg"
+        ]
+    },
+    {
+        "Id":4,
+        "StatusId":2,
+        "PerSqureRate":"10,000",
+        "TotalArea":"22,000",
+        "Address1":"Manyavar Bhavan",
+        "Address2":"Sohna Road, Gurgaon",
+        "Funded":70,
+        "Investors":65,
+        "DaysToGo":31,
+        "RentalYield":7.1,
+        "ReturnTarget":15.2,
+        "MinInvestment":"18,00,000",
+        "Photos":[
+            "https://newyorkyimby.com/wp-content/uploads/2016/04/IMG_8804-41-08-Crescent-lot-tothesw-small-wmark.jpg",
+            "https://as2.ftcdn.net/jpg/02/23/95/81/500_F_223958177_uqIsblFStlZCEAe0QbnrEWx6a7crv08g.jpg"
+        ]
+    }
+]

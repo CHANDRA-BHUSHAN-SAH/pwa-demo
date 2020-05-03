@@ -75,7 +75,7 @@ footer.page-footer{
 }
 .stat-content{
   padding-left: 4px;
-  font-size: 68%;
+  font-size: 66%;
   float: right;
   width: 75%;
 }
@@ -126,7 +126,7 @@ footer.page-footer{
   color: #333;
 }
 .stat-content strong{
-  font-size: 120%;
+  font-size: 122%;
 }
 .stat-content p, .stat-content2 p, .stat-content3 p, .stat-content4 p, .bottom-strip p{
   margin: 0;
