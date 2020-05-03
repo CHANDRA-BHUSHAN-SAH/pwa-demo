@@ -1,0 +1,195 @@
+body {
+	background:#fff;
+}
+
+.lightblue{
+  background-color: #3594fa !important;
+}
+
+a.border.nav-link.border-light.rounded.mr-1 {
+  color: #3F729B;
+}
+
+a.border.nav-link.border-light.rounded.mr-1:hover {
+  color: #1C2331;
+}
+
+.btn.btn-sm.lightblue:hover{
+  color: #fff;
+}
+
+.nav-link.active{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#categories > .col-md-4.mb-5{
+  margin-bottom: 8rem !important;
+}
+.sectionPage {
+  position: relative;
+  top: -15px;
+  margin-bottom: -125px;
+}
+
+.sectionPage::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url('https://www.lnlattorneys.com/wp-content/uploads/2014/11/Commercial-Real-Estate.jpg');
+  background-position: center center;
+  background-size: cover;
+  filter: opacity(.1);
+}
+
+.search-field{
+  margin: .375rem;
+  height: 46px;
+}
+footer.page-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.card{
+  border-radius: 0.6rem !important;
+}
+.card-footer {
+  background-color: #3594fa !important;
+  margin: -0.5px;
+  color: #fff;
+  padding: .75rem .5rem !important;
+  display: flex;
+  flex-direction: row;
+}
+.card-footer, .card-footer:last-child {
+  border-radius: 0 0 0.6rem 0.6rem !important;
+}
+.stat-icon{
+  width: 25%;
+  padding: 4px;
+  float: left;
+}
+.stat-content{
+  padding-left: 4px;
+  font-size: 68%;
+  float: right;
+  width: 75%;
+}
+.stat-icon2{
+  width: 18px;
+  padding: 0 4px 4px 4px;
+  font-size: 12px;
+  margin-left: 5px;
+  float: left;
+  color: #3594fa;
+}
+.stat-content2{
+  padding-left: 4px;
+  font-size: 56%;
+  float: right;
+  width: calc(100% - 23px);
+  margin-bottom: 3em;
+  color: #666;
+}
+.stat-content2 strong{
+  font-size: 130%;
+  color: #333;
+}
+.stat-icon3{
+  width: 18px;
+  padding: 4px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 2px;
+  float: left;
+  color: #3594fa;
+}
+.stat-content3{
+  padding: 6px  0 6px 4px;
+  font-size: 47%;
+  float: right;
+  width: calc(100% - 23px);
+  color: #666;
+}
+.stat-content4{
+  margin-left: 10px;
+  padding: 6px 4px;
+  font-size: 47%;
+  color: #666;
+}
+.stat-content4 strong, .stat-content3 strong{
+  font-size: 160%;
+  color: #333;
+}
+.stat-content strong{
+  font-size: 120%;
+}
+.stat-content p, .stat-content2 p, .stat-content3 p, .stat-content4 p, .bottom-strip p{
+  margin: 0;
+}
+.cardbody {
+  flex-direction: row;
+  display: flex;
+  background-color: #fff;
+}
+.col6 {
+  flex: 50%;
+  position: relative;
+}
+.col4 {
+  flex: 33.33333%;
+}
+.col3{
+  flex: 25%;
+}
+.carousel, .carousel-inner {
+  border-top-left-radius: 0.6rem;
+  min-height: 150px;
+}
+.carousel-inner img{
+  object-fit: fill;
+  min-height: 150px;
+}
+.carousel-indicators{
+  margin: 0 !important;
+  place-content: flex-end !important;
+}
+.carousel .carousel-indicators li{
+  width: 0.6rem !important;
+  height: .25rem !important;
+  border-radius: 0 !important;
+}
+.carousel-control-prev, .carousel-control-next{
+  display: none;
+}
+.bottom-strip{
+  display: flex;
+  background-color: #ebebeb;
+  font-size: 60%;
+  bottom: 0;
+  padding: 5px 10px;
+  position: absolute;
+  width: 100%;
+  color: #666;
+}
+.bottom-strip strong{
+  color: #3594fa;
+  font-size: 130%;
+}
+.business-options {
+  text-align: center;
+  padding: 8px 5px;
+  font-size: 70%;
+}
+.business-options.active{
+  background-color: #50da89;
+}
+.business-options svg{
+  width: 24px;
+  height: 24px;
+}
+.business-options p{
+  margin-top: 5px;
+}
