@@ -34,7 +34,7 @@ class HomePage extends React.Component {
                   </h2>
                   <MDBRow />
                   <p>PropShare, the Major Commercial and Residential Real Estate Marketplace</p>
-                  <p className='pb-4'>
+                  <p className='pb-1'>
                     Our mission is to modernize and progress the experience of buying and selling real estate by 
                     cultivating a spirit of collaboration, innovation, and integrity.
                   </p>
