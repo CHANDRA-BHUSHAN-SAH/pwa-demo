@@ -41,7 +41,9 @@ a.border.nav-link.border-light.rounded.mr-1:hover {
   background-size: cover;
   filter: opacity(.1);
 }
-
+.edge-header{
+  height: 240px;
+}
 .search-field{
   margin: .375rem;
   height: 46px;
@@ -176,7 +178,7 @@ footer.page-footer{
 }
 .bottom-strip strong{
   color: #3594fa;
-  font-size: 130%;
+  font-size: 136%;
 }
 .business-options {
   text-align: center;
@@ -192,4 +194,5 @@ footer.page-footer{
 }
 .business-options p{
   margin-top: 5px;
+  margin-bottom: 0;
 }

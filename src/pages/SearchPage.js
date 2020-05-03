@@ -10,8 +10,7 @@ import {
   MDBCarouselItem,
   MDBView,
   MDBAnimation,
-  MDBFooter,
-  MDBCardBody
+  MDBFooter
 } from 'mdbreact';
 import './HomePage.css';
 import { ReactComponent as Wallet } from '../assets/wallet.svg';
@@ -55,7 +54,7 @@ class SearchPage extends React.Component {
                 <MDBRow id='categories'>
                   {
                     propertyList.length > 0 && propertyList.map((item, index) => (
-                      <MDBCol md='6' key={item.Id} className={index + 1 == propertyList.length ? 'mb-4' : ''}>
+                      <MDBCol md='6' key={item.Id} className={index + 1 === propertyList.length ? 'mb-4' : ''}>
                         <MDBAnimation reveal type='fadeInDown'>
                           <MDBCard cascade className='my-3 grey lighten-4'>
                             <div className="cardbody">
@@ -64,9 +63,9 @@ class SearchPage extends React.Component {
                                   <MDBCarouselInner>
                                     {
                                       item.Photos.map((url, idx) => (
-                                        <MDBCarouselItem itemId={item.Id + '-' + idx} key={item.Id + '-' + idx} className={idx == 0 ? 'active' : ''}>
+                                        <MDBCarouselItem itemId={item.Id + '-' + idx} key={item.Id + '-' + idx} className={idx === 0 ? 'active' : ''}>
                                           <MDBView>
-                                            <img className='d-block w-100' src={url}/>
+                                            <img className='d-block w-100' src={url} alt={"Banner" + (idx + 1)}/>
                                           </MDBView>
                                         </MDBCarouselItem>
                                       ))
@@ -83,8 +82,7 @@ class SearchPage extends React.Component {
                                       </div>
                                       <div className="stat-content3">
                                         <strong>{item.PerSqureRate}</strong>
-                                        <br/>
-                                        Per square feet
+                                        <p>Per square feet</p>
                                       </div>
                                     </div>
                                   </div>
@@ -92,8 +90,7 @@ class SearchPage extends React.Component {
                                     <div className="stat">
                                       <div className="stat-content4">
                                         <strong>{item.TotalArea}</strong>
-                                        <br/>
-                                        Total square feet
+                                        <p>Total square feet</p>
                                       </div>
                                     </div>
                                   </div>
@@ -181,19 +178,19 @@ class SearchPage extends React.Component {
           
           <MDBFooter color='indigo'>
             <MDBRow style={{ flexDirection: 'row' }}>
-              <div className={activeTab == 'commercial' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('commercial')}>
+              <div className={activeTab === 'commercial' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('commercial')}>
                 <Commercial/>
                 <p>Commercial</p>
               </div>
-              <div className={activeTab == 'residential' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('residential')}>
+              <div className={activeTab === 'residential' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('residential')}>
                 <Residential/>
                 <p>Residential</p>
               </div>
-              <div className={activeTab == 'wherehouse' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('wherehouse')}>
+              <div className={activeTab === 'wherehouse' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('wherehouse')}>
                 <Wherehouse/>
                 <p>Wherehouse</p>
               </div>
-              <div className={activeTab == 'alternative' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('alternative')}>
+              <div className={activeTab === 'alternative' ? "col3 business-options active" : "col3 business-options"} onClick={() => this.handleTabChange('alternative')}>
                 <Alternative/>
                 <p>Alternative</p>
               </div>
